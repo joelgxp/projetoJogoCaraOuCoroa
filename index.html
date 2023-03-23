@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cara ou Coroa</title>
-    <script src="./script/script.js"></script>
+    <script src="./script/script.js" defer></script>
 </head>
+
 <body>
-    
+    <div id="tudo">
+        <div>
+            <h1>Teste sua sorte!</h1>
+            <p>Escolha uma opção:</p>
+        </div>
+        <div>
+            <label for="cara">Cara</label>
+            <input type="radio" value="cara" id="cara" name="moeda">
+        </div>
+        <div>
+            <label for="coroa">Coroa</label>
+            <input type="radio" value="coroa" id="coroa" name="moeda">
+        </div>
+        <div>
+            <button id="jogar">Jogar</button>
+        </div>
+        <div id="resultado">
+        </div>
+    </div>
 </body>
+
 </html>
